@@ -20,7 +20,7 @@ export default function PageContent() {
       )}
 
       {books !== undefined && books?.length > 0 && <BookList data={books} className="mt-8" />}
-      {books !== undefined && books?.length === 0 && <p className="text-slate-700 text-center mt-8">There are no reading list yet</p>}
+      {books !== undefined && books?.length === 0 && <p className="text-slate-700 text-center mt-8">There are no finished books yet</p>}
     </main>
   );
 }
